@@ -21,3 +21,20 @@ export default function PostIndex() {
     )
 
 }
+
+export async function getStaticPaths() {
+    const paths = []
+    Object.keys(process.env.categories).map(slug => paths.push({ params: { category: slug } }))
+    return {
+        paths: paths,
+        fallback: false,
+    }
+}
+
+export async function getStaticProps(context) {
+    return {
+        props: {
+            title: process.env.categories[context.params.category]
+        }
+    }
+}
