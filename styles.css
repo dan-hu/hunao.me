@@ -198,3 +198,7 @@ footer {
     text-align: center;
   }
 }
+
+.code-block-wrapper {
+  padding-left: 2em;
+}

@@ -32,7 +32,7 @@ export default function Layout({ children }) {
             </main>
             <footer>
                 <p>&copy; { process.env.siteTitle }</p>
-                <p><small>除标明引用或转载之外，本站所有内容均为原创，其所有权属于文章作者。引用或转载内容均已标明出处，若有冒犯或侵权，请与本站联系。</small></p>
+                <p><small>除标明引用或转载之外，本站所有内容均为原创，其所有权属于文章作者。引用或转载内容均已标明出处，若有冒犯或侵权，请<Link href="/about#contact">与本站联系</Link>。</small></p>
             </footer>
         </>
     )
