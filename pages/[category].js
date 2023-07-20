@@ -8,6 +8,15 @@ export default function PostIndex() {
 
     if (router.query.category == 'technology') {
 
+    const code1 = `
+    <img src="icon.svg" />
+    `
+    const code2 = `
+    .icon {
+        background-image: url("icon.svg");
+    }
+    `
+
     return (
         <>
             <article>
@@ -20,14 +29,14 @@ export default function PostIndex() {
                     <p>SVG太简单直观了，几乎无需学习就可以上手，这也恰恰使得包括本人在内的大部分使用者都不会去深究其用法。我在写作本文之前对SVG的用法仅限于两种方式：</p>
                     <p>1. 直接作为图片显示：</p>
                     <div className="code-block-wrapper"><CopyBlock
-      text='<img src="icon.svg" />'
+      text={code1}
       language='html'
       showLineNumbers={false}
       theme={dracula}
     /></div>
                     <p>2. 作为元素的图片背景：</p>
     <div className="code-block-wrapper"><CopyBlock
-      text='.icon {background: url("icon.svg")} />'
+      text={code2}
       language='css'
       showLineNumbers={false}
       theme={dracula}
