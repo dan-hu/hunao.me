@@ -9,13 +9,13 @@ export default function PostIndex() {
     if (router.query.category == 'technology') {
 
     const code1 = `
-    <img src="icon.svg" />
-    `
+<img src="icon.svg" />
+`
     const code2 = `
-    .icon {
-        background-image: url("icon.svg");
-    }
-    `
+.icon {
+    background-image: url("icon.svg");
+}
+`
 
     return (
         <>
