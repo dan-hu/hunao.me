@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700;900&display=swap');
 
 body {
-  font-family: 'Noto Serif SC', 'Times New Roman', serif;
+  /*font-family: 'Noto Serif SC', 'Times New Roman', serif;*/
   max-width: 1000px;
   margin: 0 auto!important;
   background: rgb(248, 246, 235);
