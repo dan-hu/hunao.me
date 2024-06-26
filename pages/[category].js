@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { useRouter } from 'next/router'
-import { CodeBlock,CopyBlock,dracula } from "react-code-blocks";
+import { CodeBlock,CopyBlock,a11yLight } from "react-code-blocks";
 
 export default function PostIndex() {
 
@@ -32,7 +32,7 @@ export default function PostIndex() {
       text={code1}
       language='html'
       showLineNumbers={false}
-      theme={a11y-light}
+      theme={a11yLight}
       codeBlock
     /></div>
                     <p>2. 作为元素的图片背景：</p>
@@ -40,7 +40,7 @@ export default function PostIndex() {
       text={code2}
       language='css'
       showLineNumbers={false}
-      theme={a11y-light}
+      theme={a11yLight}
       codeBlock
     /></div>
                 </div>
