@@ -32,7 +32,7 @@ export default function PostIndex() {
       text={code1}
       language='html'
       showLineNumbers={false}
-      theme={dracula}
+      theme={a11y-light}
       codeBlock
     /></div>
                     <p>2. 作为元素的图片背景：</p>
@@ -40,7 +40,7 @@ export default function PostIndex() {
       text={code2}
       language='css'
       showLineNumbers={false}
-      theme={dracula}
+      theme={a11y-light}
       codeBlock
     /></div>
                 </div>
