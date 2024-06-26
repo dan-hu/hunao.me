@@ -31,7 +31,7 @@ export default function PostIndex() {
                     <div className="code-block-wrapper"><CopyBlock
       text={code1}
       language='html'
-      showLineNumbers={false}
+      showLineNumbers={true}
       theme={atomOneLight}
       codeBlock
     /></div>
@@ -39,7 +39,7 @@ export default function PostIndex() {
     <div className="code-block-wrapper"><CopyBlock
       text={code2}
       language='css'
-      showLineNumbers={false}
+      showLineNumbers={true}
       theme={atomOneLight}
       codeBlock
     /></div>
