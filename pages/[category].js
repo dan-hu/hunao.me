@@ -33,6 +33,7 @@ export default function PostIndex() {
       language='html'
       showLineNumbers={false}
       theme={dracula}
+      codeBlock
     /></div>
                     <p>2. 作为元素的图片背景：</p>
     <div className="code-block-wrapper"><CopyBlock
@@ -40,6 +41,7 @@ export default function PostIndex() {
       language='css'
       showLineNumbers={false}
       theme={dracula}
+      codeBlock
     /></div>
                 </div>
             </article>
